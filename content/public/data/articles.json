@@ -1,0 +1,635 @@
+{
+  "meta": {
+    "updatedAt": "2026-10-19T00:00:00.000Z",
+    "sampleData": true
+  },
+  "articles": [
+    {
+      "id": "demo-event",
+      "title": "サンプルイベント｜記事編集とキャラ連携のデモ",
+      "type": "event_summary",
+      "status": "published",
+      "slug": "demo-event",
+      "summary": "実ゲームのイベントではありません。構造化データとビジュアル編集を紹介する架空の記事です。",
+      "createdAt": "2026-10-19T00:00:00.000Z",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "publishedOn": "2026-10-19",
+      "contentReviewed": true,
+      "toc": true,
+      "sections": [
+        {
+          "id": "demo-intro",
+          "heading": "このデモについて",
+          "blocks": [
+            {
+              "id": "intro-style",
+              "type": "paragraph",
+              "content": "実在のゲーム情報・素材を使わないサンプル記事です。",
+              "richText": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "実在のゲーム情報・素材を使わないサンプル記事です。",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          },
+                          {
+                            "type": "textStyle",
+                            "attrs": {
+                              "color": "#9b3c2f",
+                              "backgroundColor": "#fff2a8"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "banner",
+              "type": "image",
+              "content": "",
+              "image": {
+                "src": "/images/demo/event-banner.webp",
+                "alt": "オリジナルのデモ用バナー",
+                "width": 1200,
+                "height": 600,
+                "widthPercent": 100,
+                "mobileWidthPercent": 100,
+                "caption": "この画像はポートフォリオ用に新規作成した図形画像です。",
+                "align": "center"
+              }
+            }
+          ]
+        },
+        {
+          "id": "demo-notes",
+          "heading": "技術的な見どころ",
+          "blocks": [
+            {
+              "id": "notes",
+              "type": "paragraph",
+              "content": "期間・施策・キャラ参照を構造化し、説明文はTiptapで編集できます。"
+            }
+          ]
+        }
+      ],
+      "event": {
+        "name": "ポートフォリオ・サンプルイベント",
+        "period": {
+          "startAt": "2020-01-01T00:00+09:00",
+          "endAt": "2099-12-31T23:59+09:00"
+        },
+        "activities": [
+          {
+            "id": "demo-new",
+            "name": "キャラクター連携のサンプル",
+            "kind": "campaign",
+            "period": {
+              "startAt": "2020-01-01T00:00+09:00",
+              "endAt": "2099-12-31T23:59+09:00"
+            },
+            "summary": "架空キャラの情報を記事と共通DBから参照します。",
+            "characterIds": [
+              "fec282acfaddd657019c3dd6",
+              "34690a18b02e2316fd1da61b",
+              "eb96755be93c66d2f0d33891"
+            ],
+            "officialUrl": "https://example.com/portfolio/demo",
+            "blocks": [
+              {
+                "id": "activity-p",
+                "type": "paragraph",
+                "content": "この説明文は自由に編集できます。"
+              },
+              {
+                "id": "activity-cards",
+                "type": "characterCard",
+                "content": "",
+                "characterIds": [
+                  "fec282acfaddd657019c3dd6",
+                  "34690a18b02e2316fd1da61b",
+                  "eb96755be93c66d2f0d33891"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "demo-quest-link",
+            "name": "クエスト記事テンプレート",
+            "kind": "quest",
+            "period": {
+              "startAt": "2020-01-01T00:00+09:00",
+              "endAt": "2099-12-31T23:59+09:00"
+            },
+            "summary": "WAVE、盤面、ボム、適正理由を一つのデータ構造で管理する例です。",
+            "characterIds": [
+              "fec282acfaddd657019c3dd6"
+            ],
+            "officialUrl": "https://example.com/portfolio/demo"
+          }
+        ],
+        "officialUrls": [
+          "https://example.com/portfolio/demo"
+        ],
+        "lastCheckedOn": "2026-10-19",
+        "publicationReviewed": true,
+        "history": [
+          {
+            "checkedOn": "2026-10-19",
+            "note": "架空のサンプル記事を新規作成。"
+          }
+        ],
+        "bannerImageUrl": "/images/demo/event-banner.webp"
+      }
+    },
+    {
+      "id": "demo-quest",
+      "title": "架空の試練【サンプル級】",
+      "type": "quest_guide",
+      "status": "published",
+      "slug": "demo-quest",
+      "summary": "構造化された攻略データとTiptap本文を組み合わせたサンプルです。",
+      "createdAt": "2026-10-19T00:00:00.000Z",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "publishedOn": "2026-10-19",
+      "contentReviewed": true,
+      "toc": true,
+      "quest": {
+        "version": 1,
+        "name": "架空の試練",
+        "boss": "サンプルボス",
+        "bossCharacterId": "7a9a295771d395459cb41813",
+        "difficulty": "サンプル級",
+        "category": "ポートフォリオ用",
+        "relatedEventArticleId": "demo-event",
+        "participation": "架空のデータを使用する表示確認用クエストです。",
+        "stamina": 0,
+        "lastCheckedOn": "2026-10-19",
+        "sources": [
+          "https://example.com/portfolio/demo"
+        ],
+        "review": {
+          "overview": "confirmed",
+          "enemies": "confirmed",
+          "gimmicks": "confirmed",
+          "ailments": "confirmed",
+          "boards": "confirmed",
+          "bombs": "confirmed",
+          "characters": "confirmed",
+          "teams": "confirmed",
+          "phases": "confirmed"
+        },
+        "enemies": [
+          {
+            "id": "demo-boss",
+            "name": "サンプルボス",
+            "role": "boss",
+            "attributes": [
+              "水"
+            ],
+            "species": [
+              "神"
+            ],
+            "hp": "表示確認用",
+            "note": ""
+          },
+          {
+            "id": "demo-mob",
+            "name": "サンプルの敵",
+            "role": "mob",
+            "attributes": [
+              "木"
+            ],
+            "species": [
+              "獣"
+            ],
+            "hp": "表示確認用",
+            "note": ""
+          }
+        ],
+        "mechanics": [
+          {
+            "id": "demo-wall",
+            "name": "ウォール",
+            "category": "gimmick",
+            "occurrence": "present",
+            "importance": "recommended",
+            "counterTrait": "ウォール対策",
+            "counterTags": [],
+            "durability": "表示例",
+            "wave": "1",
+            "turn": "1",
+            "note": "架空のクエスト条件です。"
+          },
+          {
+            "id": "demo-poison",
+            "name": "毒",
+            "category": "ailment",
+            "occurrence": "present",
+            "importance": "recommended",
+            "counterTrait": "サンプル耐性",
+            "counterTags": [],
+            "durability": "表示例",
+            "wave": "1",
+            "turn": "1",
+            "note": "架空のクエスト条件です。"
+          },
+          {
+            "id": "demo-copy",
+            "name": "コピー",
+            "category": "gimmick",
+            "occurrence": "present",
+            "importance": "recommended",
+            "counterTrait": "コピー対策",
+            "counterTags": [],
+            "durability": "表示例",
+            "wave": "2",
+            "turn": "1",
+            "note": "架空のクエスト条件です。"
+          }
+        ],
+        "bombs": [
+          {
+            "id": "demo-bomb",
+            "kind": "タイムボム",
+            "timing": "WAVE 2の1ターン目",
+            "turnLimit": 2,
+            "condition": {
+              "minWordLength": 5,
+              "requiredCount": 3,
+              "theme": "",
+              "text": "架空の解除条件"
+            },
+            "success": "成功時の架空の効果。",
+            "failure": "失敗時の架空の効果。",
+            "method": "条件入力欄と同じ構造化データを表示する例です。"
+          }
+        ],
+        "axis": "unknown",
+        "axes": [
+          "i",
+          "smallKana"
+        ],
+        "axisNote": "実際のクエストとは関係のない表示例。",
+        "boards": [
+          {
+            "id": "demo-board-1",
+            "label": "サンプル盤面 1",
+            "pattern": "□ い □ □ か □ □",
+            "wave": "1",
+            "turn": "1",
+            "phase": "",
+            "words": [
+              "かい",
+              "いか"
+            ],
+            "behavior": "空欄と文字軸の表示を確認する架空の盤面です。",
+            "image": {
+              "src": "/images/demo/board.png",
+              "alt": "オリジナルの盤面レイアウト図",
+              "width": 1080,
+              "height": 640,
+              "widthPercent": 100,
+              "mobileWidthPercent": 100,
+              "caption": "この画像はポートフォリオ用に新規作成した図形画像です。",
+              "align": "center"
+            },
+            "display": "both"
+          },
+          {
+            "id": "demo-board-2",
+            "label": "サンプル盤面 2",
+            "pattern": "□ い □ □ か □ □",
+            "wave": "2",
+            "turn": "1",
+            "phase": "",
+            "words": [
+              "かい",
+              "いか"
+            ],
+            "behavior": "空欄と文字軸の表示を確認する架空の盤面です。",
+            "image": {
+              "src": "/images/demo/board.png",
+              "alt": "オリジナルの盤面レイアウト図",
+              "width": 1080,
+              "height": 640,
+              "widthPercent": 100,
+              "mobileWidthPercent": 100,
+              "caption": "この画像はポートフォリオ用に新規作成した図形画像です。",
+              "align": "center"
+            },
+            "display": "both"
+          }
+        ],
+        "phases": [
+          {
+            "id": "demo-phase-1",
+            "name": "サンプル行動 1",
+            "wave": "1",
+            "turn": "1",
+            "trigger": "開始時",
+            "actions": "入力した敵の行動を表示します。実ゲームの攻略情報ではありません。",
+            "mechanicIds": [
+              "demo-wall",
+              "demo-poison"
+            ],
+            "response": "登録した対策条件を確認する表示例です。"
+          },
+          {
+            "id": "demo-phase-2",
+            "name": "サンプル行動 2",
+            "wave": "2",
+            "turn": "1",
+            "trigger": "開始時",
+            "actions": "入力した敵の行動を表示します。実ゲームの攻略情報ではありません。",
+            "mechanicIds": [
+              "demo-copy"
+            ],
+            "response": "登録した対策条件を確認する表示例です。"
+          }
+        ],
+        "recommendations": [
+          {
+            "id": "demo-rec-0",
+            "characterId": "fec282acfaddd657019c3dd6",
+            "role": "leader",
+            "reason": "架空の適正理由です。画像・属性・本文を読みやすく表示するためのサンプル。",
+            "confirmed": true
+          },
+          {
+            "id": "demo-rec-1",
+            "characterId": "34690a18b02e2316fd1da61b",
+            "role": "leader",
+            "reason": "架空の適正理由です。画像・属性・本文を読みやすく表示するためのサンプル。",
+            "confirmed": true
+          },
+          {
+            "id": "demo-rec-2",
+            "characterId": "eb96755be93c66d2f0d33891",
+            "role": "sub",
+            "reason": "架空の適正理由です。画像・属性・本文を読みやすく表示するためのサンプル。",
+            "confirmed": true
+          },
+          {
+            "id": "demo-rec-3",
+            "characterId": "cb24159b0b50e3a98cdb3fe2",
+            "role": "sub",
+            "reason": "架空の適正理由です。画像・属性・本文を読みやすく表示するためのサンプル。",
+            "confirmed": true
+          },
+          {
+            "id": "demo-rec-4",
+            "characterId": "a0ce1f4c4637e1a84964cf4c",
+            "role": "sub",
+            "reason": "架空の適正理由です。画像・属性・本文を読みやすく表示するためのサンプル。",
+            "confirmed": true
+          }
+        ],
+        "teams": [
+          {
+            "id": "demo-team",
+            "name": "12枠の編成サンプル",
+            "slots": [
+              "fec282acfaddd657019c3dd6",
+              "34690a18b02e2316fd1da61b",
+              "eb96755be93c66d2f0d33891",
+              "cb24159b0b50e3a98cdb3fe2",
+              "a0ce1f4c4637e1a84964cf4c",
+              "7a9a295771d395459cb41813",
+              "bf5bdb2b044c4eecad917b0a",
+              "3abacc7feb494afe28ade1ed",
+              "73907161dc1b615151c3bd1d",
+              "8259ac62bbae0666e694ce63",
+              "a015477cab656df7f9d93167",
+              "9d385c18fd713537ba1918f9"
+            ],
+            "note": "実際の攻略編成ではありません。"
+          }
+        ],
+        "dropsState": "confirmed",
+        "drops": [
+          {
+            "id": "demo-drop",
+            "kind": "character",
+            "characterId": "7a9a295771d395459cb41813",
+            "name": "架空キャラ06",
+            "condition": "サンプル条件"
+          }
+        ],
+        "waves": [
+          {
+            "id": "demo-wave-1",
+            "name": "WAVE 1",
+            "mechanicIds": [
+              "demo-wall",
+              "demo-poison"
+            ],
+            "boardIds": [
+              "demo-board-1"
+            ],
+            "bombIds": [],
+            "phaseIds": [
+              "demo-phase-1"
+            ],
+            "hazardsState": "confirmed",
+            "enemyCount": 3,
+            "enemyPlacements": [
+              {
+                "enemyId": "demo-mob",
+                "position": "left"
+              },
+              {
+                "enemyId": "demo-boss",
+                "position": "center"
+              },
+              {
+                "enemyId": "demo-mob",
+                "position": "right"
+              }
+            ]
+          },
+          {
+            "id": "demo-wave-2",
+            "name": "WAVE 2",
+            "mechanicIds": [
+              "demo-copy"
+            ],
+            "boardIds": [
+              "demo-board-2"
+            ],
+            "bombIds": [
+              "demo-bomb"
+            ],
+            "phaseIds": [
+              "demo-phase-2"
+            ],
+            "hazardsState": "confirmed",
+            "enemyCount": 1,
+            "enemyPlacements": [
+              {
+                "enemyId": "demo-boss",
+                "position": "center"
+              }
+            ]
+          }
+        ]
+      },
+      "sections": [
+        {
+          "id": "demo-section-overview",
+          "heading": "クエスト概要",
+          "questSection": "overview",
+          "blocks": []
+        },
+        {
+          "id": "demo-section-hazards",
+          "heading": "敵属性・ギミック・状態異常",
+          "questSection": "hazards",
+          "blocks": []
+        },
+        {
+          "id": "demo-section-points",
+          "heading": "攻略の重要ポイント",
+          "questSection": "points",
+          "blocks": [
+            {
+              "id": "quest-point",
+              "type": "paragraph",
+              "content": "ここは攻略の説明を自由に編集できる領域です。",
+              "richText": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "ここは攻略の説明を自由に編集できる領域です。",
+                        "marks": [
+                          {
+                            "type": "bold"
+                          },
+                          {
+                            "type": "textStyle",
+                            "attrs": {
+                              "color": "#9b3c2f",
+                              "backgroundColor": "#fff2a8"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "demo-section-boards",
+          "heading": "盤面と文字軸",
+          "questSection": "boards",
+          "blocks": []
+        },
+        {
+          "id": "demo-section-bombs",
+          "heading": "ボム・特殊条件",
+          "questSection": "bombs",
+          "blocks": []
+        },
+        {
+          "id": "demo-section-characters",
+          "heading": "適正キャラクター",
+          "questSection": "characters",
+          "blocks": []
+        },
+        {
+          "id": "demo-section-teams",
+          "heading": "おすすめ編成",
+          "questSection": "teams",
+          "blocks": []
+        },
+        {
+          "id": "demo-section-phases",
+          "heading": "WAVE・ターン別攻略",
+          "questSection": "phases",
+          "blocks": []
+        },
+        {
+          "id": "demo-section-notes",
+          "heading": "補足・関連情報",
+          "questSection": "notes",
+          "blocks": []
+        },
+        {
+          "id": "demo-wave-1-points",
+          "heading": "WAVE 1 攻略ポイント",
+          "questWave": {
+            "id": "demo-wave-1",
+            "target": "points"
+          },
+          "blocks": [
+            {
+              "id": "demo-wave-1-points-body",
+              "type": "paragraph",
+              "content": "このWAVEでの説明文を独立して編集できます。"
+            }
+          ]
+        },
+        {
+          "id": "demo-wave-1-notes",
+          "heading": "WAVE 1 注意点",
+          "questWave": {
+            "id": "demo-wave-1",
+            "target": "notes"
+          },
+          "blocks": [
+            {
+              "id": "demo-wave-1-notes-body",
+              "type": "paragraph",
+              "content": "ボムや敵の配置に関するサンプル注意書きです。"
+            }
+          ]
+        },
+        {
+          "id": "demo-wave-2-points",
+          "heading": "WAVE 2 攻略ポイント",
+          "questWave": {
+            "id": "demo-wave-2",
+            "target": "points"
+          },
+          "blocks": [
+            {
+              "id": "demo-wave-2-points-body",
+              "type": "paragraph",
+              "content": "このWAVEでの説明文を独立して編集できます。"
+            }
+          ]
+        },
+        {
+          "id": "demo-wave-2-notes",
+          "heading": "WAVE 2 注意点",
+          "questWave": {
+            "id": "demo-wave-2",
+            "target": "notes"
+          },
+          "blocks": [
+            {
+              "id": "demo-wave-2-notes-body",
+              "type": "paragraph",
+              "content": "ボムや敵の配置に関するサンプル注意書きです。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

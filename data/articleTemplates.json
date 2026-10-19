@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "sampleData": true
+  },
+  "templates": [
+    {
+      "id": "demo-guide",
+      "type": "beginner_guide",
+      "label": "サンプル記事",
+      "sections": [
+        {
+          "id": "demo-body",
+          "heading": "本文",
+          "defaultBlocks": [
+            {
+              "type": "paragraph",
+              "content": ""
+            }
+          ],
+          "allowedBlockTypes": [
+            "paragraph",
+            "point",
+            "warning"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1942 @@
+{
+  "meta": {
+    "generatedAt": "2026-10-19T00:00:00.000Z",
+    "policy": "Original synthetic portfolio fixtures; not actual game data",
+    "sampleData": true
+  },
+  "characters": [
+    {
+      "id": "fec282acfaddd657019c3dd6",
+      "name": "架空キャラ01・あかり",
+      "attribute": "火",
+      "attributes": [
+        "火",
+        "闇"
+      ],
+      "species": "神",
+      "letters": [
+        "あ",
+        "か",
+        "り"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "あ",
+          "attributes": [
+            "火",
+            "闇"
+          ]
+        },
+        {
+          "letter": "か",
+          "attributes": [
+            "火",
+            "闇"
+          ]
+        },
+        {
+          "letter": "り",
+          "attributes": [
+            "火",
+            "闇"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "ウォール",
+        "トゲ"
+      ],
+      "superGimmicks": [
+        "スーパービリビリガード"
+      ],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/1",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-1.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "看破",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。",
+        "応援",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "モード・シフト",
+        "架空の表示切り替えを検証する項目です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 1
+          }
+        }
+      ],
+      "status": {
+        "hp": 1000,
+        "atk": 400
+      },
+      "rarityType": "グランド",
+      "kotowaza": [
+        {
+          "level": 4,
+          "condition": "4文字以上",
+          "effect": "MAXのみを登録した架空の表示例です。"
+        }
+      ]
+    },
+    {
+      "id": "34690a18b02e2316fd1da61b",
+      "name": "架空キャラ02・みずの",
+      "attribute": "水",
+      "attributes": [
+        "水",
+        "闇"
+      ],
+      "species": "英雄",
+      "letters": [
+        "み",
+        "ず"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "み",
+          "attributes": [
+            "水",
+            "闇"
+          ]
+        },
+        {
+          "letter": "ず",
+          "attributes": [
+            "水",
+            "闇"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "コピー",
+        "地雷"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/2",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-2.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "看破",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。",
+        "応援",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "文字変換",
+        "この説明は祝福欄の検証用に独自作成した文章です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 2
+          }
+        }
+      ],
+      "status": {
+        "hp": 1010,
+        "atk": 405
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "eb96755be93c66d2f0d33891",
+      "name": "架空キャラ03・もりの",
+      "attribute": "木",
+      "attributes": [
+        "木"
+      ],
+      "species": "龍",
+      "letters": [
+        "も",
+        "り"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "も",
+          "attributes": [
+            "木"
+          ]
+        },
+        {
+          "letter": "り",
+          "attributes": [
+            "木"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "ウォール",
+        "トゲ"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/3",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-3.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "文字変換",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "モード・シフト",
+        "架空の表示切り替えを検証する項目です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 3
+          }
+        }
+      ],
+      "status": {
+        "hp": 1020,
+        "atk": 410
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "cb24159b0b50e3a98cdb3fe2",
+      "name": "架空キャラ04・ひかり",
+      "attribute": "光",
+      "attributes": [
+        "光"
+      ],
+      "species": "獣",
+      "letters": [
+        "ひ",
+        "か",
+        "り"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "ひ",
+          "attributes": [
+            "光"
+          ]
+        },
+        {
+          "letter": "か",
+          "attributes": [
+            "光"
+          ]
+        },
+        {
+          "letter": "り",
+          "attributes": [
+            "光"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "コピー",
+        "地雷"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/4",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-4.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "牽制",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "文字変換",
+        "この説明は祝福欄の検証用に独自作成した文章です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 4
+          }
+        }
+      ],
+      "status": {
+        "hp": 1030,
+        "atk": 415
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "a0ce1f4c4637e1a84964cf4c",
+      "name": "架空キャラ05・かげの",
+      "attribute": "闇",
+      "attributes": [
+        "闇"
+      ],
+      "species": "霊",
+      "letters": [
+        "や",
+        "み"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "や",
+          "attributes": [
+            "闇"
+          ]
+        },
+        {
+          "letter": "み",
+          "attributes": [
+            "闇"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "ウォール",
+        "トゲ"
+      ],
+      "superGimmicks": [
+        "スーパービリビリガード"
+      ],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/5",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-5.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "援護",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "モード・シフト",
+        "架空の表示切り替えを検証する項目です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 5
+          }
+        }
+      ],
+      "status": {
+        "hp": 1040,
+        "atk": 420
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "7a9a295771d395459cb41813",
+      "name": "架空キャラ06・そらの",
+      "attribute": "天",
+      "attributes": [
+        "天"
+      ],
+      "species": "物",
+      "letters": [
+        "そ",
+        "ら"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "そ",
+          "attributes": [
+            "天"
+          ]
+        },
+        {
+          "letter": "ら",
+          "attributes": [
+            "天"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "コピー",
+        "地雷"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/6",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-6.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "文字変換",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "文字変換",
+        "この説明は祝福欄の検証用に独自作成した文章です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 6
+          }
+        }
+      ],
+      "status": {
+        "hp": 1050,
+        "atk": 425
+      },
+      "rarityType": "",
+      "kotowaza": [
+        {
+          "level": 4,
+          "condition": "4文字以上",
+          "effect": "MAXのみを登録した架空の表示例です。"
+        }
+      ]
+    },
+    {
+      "id": "bf5bdb2b044c4eecad917b0a",
+      "name": "架空キャラ07・あかり",
+      "attribute": "火",
+      "attributes": [
+        "火"
+      ],
+      "species": "神",
+      "letters": [
+        "あ",
+        "か",
+        "り"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "あ",
+          "attributes": [
+            "火"
+          ]
+        },
+        {
+          "letter": "か",
+          "attributes": [
+            "火"
+          ]
+        },
+        {
+          "letter": "り",
+          "attributes": [
+            "火"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "ウォール",
+        "トゲ"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/7",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-1.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "牽制",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "モード・シフト",
+        "架空の表示切り替えを検証する項目です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 7
+          }
+        }
+      ],
+      "status": {
+        "hp": 1060,
+        "atk": 430
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "3abacc7feb494afe28ade1ed",
+      "name": "架空キャラ08・みずの",
+      "attribute": "水",
+      "attributes": [
+        "水"
+      ],
+      "species": "英雄",
+      "letters": [
+        "み",
+        "ず"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "み",
+          "attributes": [
+            "水"
+          ]
+        },
+        {
+          "letter": "ず",
+          "attributes": [
+            "水"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "コピー",
+        "地雷"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/8",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-2.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "援護",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "文字変換",
+        "この説明は祝福欄の検証用に独自作成した文章です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 8
+          }
+        }
+      ],
+      "status": {
+        "hp": 1070,
+        "atk": 435
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "73907161dc1b615151c3bd1d",
+      "name": "架空キャラ09・もりの",
+      "attribute": "木",
+      "attributes": [
+        "木"
+      ],
+      "species": "龍",
+      "letters": [
+        "も",
+        "り"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "も",
+          "attributes": [
+            "木"
+          ]
+        },
+        {
+          "letter": "り",
+          "attributes": [
+            "木"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "ウォール",
+        "トゲ"
+      ],
+      "superGimmicks": [
+        "スーパービリビリガード"
+      ],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/9",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-3.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "文字変換",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "モード・シフト",
+        "架空の表示切り替えを検証する項目です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 9
+          }
+        }
+      ],
+      "status": {
+        "hp": 1080,
+        "atk": 440
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "8259ac62bbae0666e694ce63",
+      "name": "架空キャラ10・ひかり",
+      "attribute": "光",
+      "attributes": [
+        "光"
+      ],
+      "species": "獣",
+      "letters": [
+        "ひ",
+        "か",
+        "り"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "ひ",
+          "attributes": [
+            "光"
+          ]
+        },
+        {
+          "letter": "か",
+          "attributes": [
+            "光"
+          ]
+        },
+        {
+          "letter": "り",
+          "attributes": [
+            "光"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "コピー",
+        "地雷"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/10",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-4.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "牽制",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "文字変換",
+        "この説明は祝福欄の検証用に独自作成した文章です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 10
+          }
+        }
+      ],
+      "status": {
+        "hp": 1090,
+        "atk": 445
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "a015477cab656df7f9d93167",
+      "name": "架空キャラ11・かげの",
+      "attribute": "闇",
+      "attributes": [
+        "闇"
+      ],
+      "species": "霊",
+      "letters": [
+        "や",
+        "み"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "や",
+          "attributes": [
+            "闇"
+          ]
+        },
+        {
+          "letter": "み",
+          "attributes": [
+            "闇"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "ウォール",
+        "トゲ"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/11",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-5.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "援護",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "モード・シフト",
+        "架空の表示切り替えを検証する項目です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 11
+          }
+        }
+      ],
+      "status": {
+        "hp": 1100,
+        "atk": 450
+      },
+      "rarityType": "",
+      "kotowaza": [
+        {
+          "level": 4,
+          "condition": "4文字以上",
+          "effect": "MAXのみを登録した架空の表示例です。"
+        }
+      ]
+    },
+    {
+      "id": "9d385c18fd713537ba1918f9",
+      "name": "架空キャラ12・そらの",
+      "attribute": "天",
+      "attributes": [
+        "天"
+      ],
+      "species": "物",
+      "letters": [
+        "そ",
+        "ら"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "そ",
+          "attributes": [
+            "天"
+          ]
+        },
+        {
+          "letter": "ら",
+          "attributes": [
+            "天"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "コピー",
+        "地雷"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/12",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-6.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "文字変換",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "文字変換",
+        "この説明は祝福欄の検証用に独自作成した文章です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 12
+          }
+        }
+      ],
+      "status": {
+        "hp": 1110,
+        "atk": 455
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "12ab92d6a497aacfa68d3c53",
+      "name": "架空キャラ13・あかり",
+      "attribute": "火",
+      "attributes": [
+        "火"
+      ],
+      "species": "神",
+      "letters": [
+        "あ",
+        "か",
+        "り"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "あ",
+          "attributes": [
+            "火"
+          ]
+        },
+        {
+          "letter": "か",
+          "attributes": [
+            "火"
+          ]
+        },
+        {
+          "letter": "り",
+          "attributes": [
+            "火"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "ウォール",
+        "トゲ"
+      ],
+      "superGimmicks": [
+        "スーパービリビリガード"
+      ],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/13",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-1.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "牽制",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "モード・シフト",
+        "架空の表示切り替えを検証する項目です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 13
+          }
+        }
+      ],
+      "status": {
+        "hp": 1120,
+        "atk": 460
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "39e04e527cd3e4acbec2be83",
+      "name": "架空キャラ14・みずの",
+      "attribute": "水",
+      "attributes": [
+        "水"
+      ],
+      "species": "英雄",
+      "letters": [
+        "み",
+        "ず"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "み",
+          "attributes": [
+            "水"
+          ]
+        },
+        {
+          "letter": "ず",
+          "attributes": [
+            "水"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "コピー",
+        "地雷"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/14",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-2.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "援護",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "文字変換",
+        "この説明は祝福欄の検証用に独自作成した文章です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 14
+          }
+        }
+      ],
+      "status": {
+        "hp": 1130,
+        "atk": 465
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "b50a3dabcef9af3e3a9b6a0c",
+      "name": "架空キャラ15・もりの",
+      "attribute": "木",
+      "attributes": [
+        "木"
+      ],
+      "species": "龍",
+      "letters": [
+        "も",
+        "り"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "も",
+          "attributes": [
+            "木"
+          ]
+        },
+        {
+          "letter": "り",
+          "attributes": [
+            "木"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "ウォール",
+        "トゲ"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/15",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-3.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "文字変換",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "モード・シフト",
+        "架空の表示切り替えを検証する項目です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 15
+          }
+        }
+      ],
+      "status": {
+        "hp": 1140,
+        "atk": 470
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "6494acc643b02cd59b289bcc",
+      "name": "架空キャラ16・ひかり",
+      "attribute": "光",
+      "attributes": [
+        "光"
+      ],
+      "species": "獣",
+      "letters": [
+        "ひ",
+        "か",
+        "り"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "ひ",
+          "attributes": [
+            "光"
+          ]
+        },
+        {
+          "letter": "か",
+          "attributes": [
+            "光"
+          ]
+        },
+        {
+          "letter": "り",
+          "attributes": [
+            "光"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "コピー",
+        "地雷"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/16",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-4.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "牽制",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "文字変換",
+        "この説明は祝福欄の検証用に独自作成した文章です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 16
+          }
+        }
+      ],
+      "status": {
+        "hp": 1150,
+        "atk": 475
+      },
+      "rarityType": "",
+      "kotowaza": [
+        {
+          "level": 4,
+          "condition": "4文字以上",
+          "effect": "MAXのみを登録した架空の表示例です。"
+        }
+      ]
+    },
+    {
+      "id": "53198e8a3dde2c9679530cc3",
+      "name": "架空キャラ17・かげの",
+      "attribute": "闇",
+      "attributes": [
+        "闇"
+      ],
+      "species": "霊",
+      "letters": [
+        "や",
+        "み"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "や",
+          "attributes": [
+            "闇"
+          ]
+        },
+        {
+          "letter": "み",
+          "attributes": [
+            "闇"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "ウォール",
+        "トゲ"
+      ],
+      "superGimmicks": [
+        "スーパービリビリガード"
+      ],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/17",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-5.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "援護",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "モード・シフト",
+        "架空の表示切り替えを検証する項目です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 17
+          }
+        }
+      ],
+      "status": {
+        "hp": 1160,
+        "atk": 480
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "f3072784a85d2cb55bd1b559",
+      "name": "架空キャラ18・そらの",
+      "attribute": "天",
+      "attributes": [
+        "天"
+      ],
+      "species": "物",
+      "letters": [
+        "そ",
+        "ら"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "そ",
+          "attributes": [
+            "天"
+          ]
+        },
+        {
+          "letter": "ら",
+          "attributes": [
+            "天"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "コピー",
+        "地雷"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/18",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-6.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "文字変換",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "文字変換",
+        "この説明は祝福欄の検証用に独自作成した文章です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 18
+          }
+        }
+      ],
+      "status": {
+        "hp": 1170,
+        "atk": 485
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "c104583ca0b65684bf0ad93a",
+      "name": "架空キャラ19・あかり",
+      "attribute": "火",
+      "attributes": [
+        "火"
+      ],
+      "species": "神",
+      "letters": [
+        "あ",
+        "か",
+        "り"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "あ",
+          "attributes": [
+            "火"
+          ]
+        },
+        {
+          "letter": "か",
+          "attributes": [
+            "火"
+          ]
+        },
+        {
+          "letter": "り",
+          "attributes": [
+            "火"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "ウォール",
+        "トゲ"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/19",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-1.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "牽制",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "モード・シフト",
+        "架空の表示切り替えを検証する項目です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 19
+          }
+        }
+      ],
+      "status": {
+        "hp": 1180,
+        "atk": 490
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "012a33d1511b5ae0c43dc450",
+      "name": "架空キャラ20・みずの",
+      "attribute": "水",
+      "attributes": [
+        "水"
+      ],
+      "species": "英雄",
+      "letters": [
+        "み",
+        "ず"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "み",
+          "attributes": [
+            "水"
+          ]
+        },
+        {
+          "letter": "ず",
+          "attributes": [
+            "水"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "コピー",
+        "地雷"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/20",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-2.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "援護",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "文字変換",
+        "この説明は祝福欄の検証用に独自作成した文章です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 20
+          }
+        }
+      ],
+      "status": {
+        "hp": 1190,
+        "atk": 495
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "0c74d61c33f56ce8d8604081",
+      "name": "架空キャラ21・もりの",
+      "attribute": "木",
+      "attributes": [
+        "木"
+      ],
+      "species": "龍",
+      "letters": [
+        "も",
+        "り"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "も",
+          "attributes": [
+            "木"
+          ]
+        },
+        {
+          "letter": "り",
+          "attributes": [
+            "木"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "ウォール",
+        "トゲ"
+      ],
+      "superGimmicks": [
+        "スーパービリビリガード"
+      ],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/21",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-3.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "文字変換",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "モード・シフト",
+        "架空の表示切り替えを検証する項目です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 21
+          }
+        }
+      ],
+      "status": {
+        "hp": 1200,
+        "atk": 500
+      },
+      "rarityType": "",
+      "kotowaza": [
+        {
+          "level": 4,
+          "condition": "4文字以上",
+          "effect": "MAXのみを登録した架空の表示例です。"
+        }
+      ]
+    },
+    {
+      "id": "66deea2febdaca13b2be046f",
+      "name": "架空キャラ22・ひかり",
+      "attribute": "光",
+      "attributes": [
+        "光"
+      ],
+      "species": "獣",
+      "letters": [
+        "ひ",
+        "か",
+        "り"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "ひ",
+          "attributes": [
+            "光"
+          ]
+        },
+        {
+          "letter": "か",
+          "attributes": [
+            "光"
+          ]
+        },
+        {
+          "letter": "り",
+          "attributes": [
+            "光"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "コピー",
+        "地雷"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/22",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-4.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "牽制",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "文字変換",
+        "この説明は祝福欄の検証用に独自作成した文章です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 22
+          }
+        }
+      ],
+      "status": {
+        "hp": 1210,
+        "atk": 505
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "64750b32909ae4e0c6491344",
+      "name": "架空キャラ23・かげの",
+      "attribute": "闇",
+      "attributes": [
+        "闇"
+      ],
+      "species": "霊",
+      "letters": [
+        "や",
+        "み"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "や",
+          "attributes": [
+            "闇"
+          ]
+        },
+        {
+          "letter": "み",
+          "attributes": [
+            "闇"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "ウォール",
+        "トゲ"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/23",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-5.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "援護",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "モード・シフト",
+        "架空の表示切り替えを検証する項目です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 23
+          }
+        }
+      ],
+      "status": {
+        "hp": 1220,
+        "atk": 510
+      },
+      "rarityType": "",
+      "kotowaza": []
+    },
+    {
+      "id": "af7fe303892a5ae067f5006c",
+      "name": "架空キャラ24・そらの",
+      "attribute": "天",
+      "attributes": [
+        "天"
+      ],
+      "species": "物",
+      "letters": [
+        "そ",
+        "ら"
+      ],
+      "letterAttributes": [
+        {
+          "letter": "そ",
+          "attributes": [
+            "天"
+          ]
+        },
+        {
+          "letter": "ら",
+          "attributes": [
+            "天"
+          ]
+        }
+      ],
+      "leaderTraits": [
+        "サンプル強化"
+      ],
+      "leaderTraitText": "このキャラは技術検証用の架空データです。実際のゲーム内性能を示しません。",
+      "gimmicks": [
+        "コピー",
+        "地雷"
+      ],
+      "superGimmicks": [],
+      "groups": [
+        "サンプル研究会"
+      ],
+      "collabGroups": [],
+      "rating": "サンプル",
+      "sourceUrl": "https://example.com/portfolio/characters/24",
+      "updatedAt": "2026-10-19T00:00:00.000Z",
+      "imageUrl": "/images/demo/character-6.png",
+      "imageSourceUrl": "https://example.com/portfolio/original-artwork",
+      "memo": "オリジナルの架空サンプル。ゲームデータの転載ではありません。",
+      "normalMove": {
+        "condition": "3文字以上",
+        "effect": "通常わざの表示を検証するための架空の説明文です。"
+      },
+      "superMove": {
+        "condition": "4文字以上",
+        "effect": "すごわざの表示を検証するための架空の説明文です。"
+      },
+      "traitsRaw": [
+        "文字変換",
+        "この段落は表示・検索の検証用に作成した独自の説明文です。"
+      ],
+      "blessingTraitsRaw": [
+        "文字変換",
+        "この説明は祝福欄の検証用に独自作成した文章です。"
+      ],
+      "traits": [
+        {
+          "templateId": "demo-atk",
+          "values": {
+            "n": 24
+          }
+        }
+      ],
+      "status": {
+        "hp": 1230,
+        "atk": 515
+      },
+      "rarityType": "",
+      "kotowaza": []
+    }
+  ]
+}

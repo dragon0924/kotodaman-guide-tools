@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "synthetic": true,
+  "characterIds": [
+    "fec282acfaddd657019c3dd6",
+    "34690a18b02e2316fd1da61b",
+    "eb96755be93c66d2f0d33891",
+    "cb24159b0b50e3a98cdb3fe2",
+    "a0ce1f4c4637e1a84964cf4c",
+    "7a9a295771d395459cb41813",
+    "bf5bdb2b044c4eecad917b0a",
+    "3abacc7feb494afe28ade1ed",
+    "73907161dc1b615151c3bd1d",
+    "8259ac62bbae0666e694ce63",
+    "a015477cab656df7f9d93167",
+    "9d385c18fd713537ba1918f9",
+    "12ab92d6a497aacfa68d3c53",
+    "39e04e527cd3e4acbec2be83",
+    "b50a3dabcef9af3e3a9b6a0c",
+    "6494acc643b02cd59b289bcc",
+    "53198e8a3dde2c9679530cc3",
+    "f3072784a85d2cb55bd1b559",
+    "c104583ca0b65684bf0ad93a",
+    "012a33d1511b5ae0c43dc450",
+    "0c74d61c33f56ce8d8604081",
+    "66deea2febdaca13b2be046f",
+    "64750b32909ae4e0c6491344",
+    "af7fe303892a5ae067f5006c"
+  ],
+  "articleIds": [
+    "demo-event",
+    "demo-quest",
+    "demo-private-draft"
+  ],
+  "imagePaths": [
+    "/images/demo/character-1.png",
+    "/images/demo/character-2.png",
+    "/images/demo/character-3.png",
+    "/images/demo/character-4.png",
+    "/images/demo/character-5.png",
+    "/images/demo/character-6.png",
+    "/images/demo/event-banner.webp",
+    "/images/demo/board.png"
+  ]
+}

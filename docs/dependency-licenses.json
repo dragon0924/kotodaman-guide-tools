@@ -1,0 +1,128 @@
+[
+  {
+    "name": "@tiptap/core",
+    "version": "3.31.4",
+    "license": "MIT",
+    "repository": "https://github.com/ueberdosis/tiptap"
+  },
+  {
+    "name": "@tiptap/extension-highlight",
+    "version": "3.31.4",
+    "license": "MIT",
+    "repository": "https://github.com/ueberdosis/tiptap"
+  },
+  {
+    "name": "@tiptap/extension-table",
+    "version": "3.31.4",
+    "license": "MIT",
+    "repository": "https://github.com/ueberdosis/tiptap"
+  },
+  {
+    "name": "@tiptap/extension-text-align",
+    "version": "3.31.4",
+    "license": "MIT",
+    "repository": "https://github.com/ueberdosis/tiptap"
+  },
+  {
+    "name": "@tiptap/extension-text-style",
+    "version": "3.31.4",
+    "license": "MIT",
+    "repository": "https://github.com/ueberdosis/tiptap"
+  },
+  {
+    "name": "@tiptap/pm",
+    "version": "3.31.4",
+    "license": "MIT",
+    "repository": "https://github.com/ueberdosis/tiptap"
+  },
+  {
+    "name": "@tiptap/react",
+    "version": "3.31.4",
+    "license": "MIT",
+    "repository": "https://github.com/ueberdosis/tiptap"
+  },
+  {
+    "name": "@tiptap/starter-kit",
+    "version": "3.31.4",
+    "license": "MIT",
+    "repository": "https://github.com/ueberdosis/tiptap"
+  },
+  {
+    "name": "lucide-react",
+    "version": "0.468.0",
+    "license": "ISC",
+    "repository": "https://github.com/lucide-icons/lucide.git"
+  },
+  {
+    "name": "next",
+    "version": "16.3.8",
+    "license": "MIT",
+    "repository": "vercel/next.js"
+  },
+  {
+    "name": "postcss",
+    "version": "8.5.30",
+    "license": "MIT",
+    "repository": "postcss/postcss"
+  },
+  {
+    "name": "react",
+    "version": "19.0.0",
+    "license": "MIT",
+    "repository": "https://github.com/facebook/react.git"
+  },
+  {
+    "name": "react-dom",
+    "version": "19.0.0",
+    "license": "MIT",
+    "repository": "https://github.com/facebook/react.git"
+  },
+  {
+    "name": "sharp",
+    "version": "0.35.5",
+    "license": "Apache-2.0",
+    "repository": "git+https://github.com/lovell/sharp.git"
+  },
+  {
+    "name": "@types/node",
+    "version": "22.19.19",
+    "license": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  {
+    "name": "@types/react",
+    "version": "19.2.15",
+    "license": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  {
+    "name": "@types/react-dom",
+    "version": "19.2.3",
+    "license": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  {
+    "name": "eslint",
+    "version": "9.39.4",
+    "license": "MIT",
+    "repository": "eslint/eslint"
+  },
+  {
+    "name": "eslint-config-next",
+    "version": "16.3.8",
+    "license": "MIT",
+    "repository": "vercel/next.js"
+  },
+  {
+    "name": "playwright",
+    "version": "1.60.0",
+    "license": "Apache-2.0",
+    "repository": "git+https://github.com/microsoft/playwright.git"
+  },
+  {
+    "name": "typescript",
+    "version": "5.9.3",
+    "license": "Apache-2.0",
+    "repository": "https://github.com/microsoft/TypeScript.git"
+  }
+]
